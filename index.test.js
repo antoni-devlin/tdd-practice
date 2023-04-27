@@ -17,4 +17,10 @@ describe("functions", () => {
 
     expect(result).toBe("fizz");
   });
+
+  test("fizzbuzz(3) is fizz", () => {
+    const result = fizzbuzz(3);
+
+    expect(result).toBe("fizz");
+  });
 });
