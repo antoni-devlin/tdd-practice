@@ -39,6 +39,6 @@ describe("functions", () => {
   test('fizzbuzz("string") throws a TypeError', () => {
     const result = fizzbuzz("string");
 
-    expect(result).toThrow("/isn't a number/");
+    expect(result).toThrow(TypeError);
   });
 });
